@@ -1,0 +1,18 @@
+# The Cargo.toml file is the manifest for the Rust package manager, Cargo.
+# It defines metadata about the project, its dependencies, and build configuration.
+
+[package]
+# The name of the package. This will be used when building and distributing the project.
+name = "gaemthesecond"
+
+# The current version of the project, following Semantic Versioning (SemVer).
+version = "0.1.0"
+
+# Specifies the Rust edition to use for compilation. 2024 is the latest stable edition.
+edition = "2024"
+
+# Dependencies section: list all external libraries (crates) that the project needs to run.
+[dependencies]
+# Macroquad is a simple and easy-to-use game library for Rust.
+# It provides functions for 2D/3D rendering, input handling, and more.
+macroquad = "0.4"
